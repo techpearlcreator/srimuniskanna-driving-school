@@ -1,0 +1,2128 @@
+@media screen and (min-width:320px) {
+    *{
+        scroll-behavior: smooth;
+      
+        
+    }
+    
+    body {
+      font-family: 'Poppins',Arial, sans-serif;
+      margin-left: 40px;
+    }
+    
+    .uppernavbar{
+        /*border: 2px solid red;*/
+        width:100%;
+        height: 175px;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+    }
+    .upperrightnavbar{
+       /* border: 2px solid green;*/
+        width: 50%;
+        height: 100%;
+    }
+    .upperrightnavbar img{
+        width: 175px;
+        height: 175px;
+        border-radius: 78%;
+        object-fit: fill;
+    }
+    .loginbutton{
+        width: 200px;
+        height: 70px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: black;
+        color: mintcream;
+        font-size: 38px;
+        margin-left: 600px;
+        margin-top: 60px;
+    }
+    .upperleftnavbar{
+      /*  border: 2px solid blue;*/
+        width: 50%;
+        height: 100%;
+       
+    }
+    .lowernav{
+        margin-top: 30px;
+       /* border: 2px solid green;*/
+        width: 100%;
+        height: 100px;
+       position: fixed;
+       z-index: 1000;
+     margin-left: 15px;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+        color: mintcream;
+    }
+    .menu{
+        border: 2px solid black ;
+        border-radius: 50px;
+        width: 900px;
+        height: 100%;
+        justify-content: space-between;
+        background-color: black;
+        color: mintcream;
+    }
+    .menu li{
+       
+        display:inline-flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        text-decoration: none;
+       color: mintcream;
+        font-weight: bolder;
+      
+    }
+    .menu a{
+        color: mintcream;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 40px;
+       justify-content: space-between;
+    }
+    .allsection{
+        margin-left: -20px;
+    }
+    .BannerContainer{
+        margin-top: 50px;
+        margin-left: 60px;
+        /*border: 2px solid red;*/
+        width: 855px;
+        height: 1400px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin: auto;
+        
+      }
+      .mySlides {
+        display: none;
+      }
+      .mySlides img {
+        width: 100%;
+        height: auto;
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 150px;
+      }
+    .BannerContent{
+    border: 2px solid green;
+    position:absolute;
+    margin-top: -500px;
+    
+    }
+    .Popularcontainer{
+        /*border: 2px solid red;*/
+        margin-top: 30px;
+        height: 1200px;
+        width: 100%;
+    }
+    .Popularcontainer h2{
+     font-size: 80px;
+    }
+    .imageContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imagebar1 {
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 1050px;
+    width: 50%;
+    margin-left: -20px;
+    }
+    .imagebar1 h1{
+     font-size: 50px;
+    }
+    .imagebar1 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:420px ;
+        height: 220px;
+    }
+    .imageContent1{
+        /*border: 2px solid blue ;*/
+        font-size: 43px;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    .imageContent1 li{
+        list-style:square ;
+    }
+    .imagebar2{
+        border: 5px solid black;
+        border-radius: 50px;
+        width: 50%;
+        height: 1050px;
+        margin-left: 25px;
+    }
+    .imagebar2 h1{
+        font-size: 48px;
+    }
+    .imagebar2 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:420px ;
+        height: 220px;
+    }
+    .imageContent2{
+        /*  border: 2px solid blue ;*/
+           font-size: 42.5px;
+           padding: 5px;
+           font-weight: bolder; 
+           padding: 9px;
+    }
+    .imageContent2 li{
+        list-style:square ;
+    }
+    .ourServiceContainer{
+        margin-top: 50px;
+        /*border: 5px solid black;*/
+        width: 100%;
+        height: 1200px;
+    }
+    .ourServiceContainer h2{
+        margin-top: 100px;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    .service{
+        border: 4px solid black;
+        border-radius: 50px;
+        display: flex;
+    }
+    .imagebarrightside{
+       /* border: 2px solid black;*/
+        border: 5px;
+        height: 900px;
+        width:50%;
+    }
+    .imagebarrightside img{
+        width: 100%;
+        height: 100%;
+        border: 4px solid black;
+        border-radius: 50px;
+    }
+    .Contentbarleft h2{
+        font-size: 60px;
+        font-weight: bolder;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .Contentbarleft li{
+        font-size: 38px;
+        font-weight: bolder;
+        padding-top: 20px;
+        list-style: none;
+    }
+    .Coursecontainer{
+     /*  border: 2px solid red;*/
+        width: 100%;
+        height: 3000px;
+    }
+    .Coursecontainer h2{
+        font-size: 90px;
+    }
+    .planCardContainer{
+       /* border: 4px solid black;*/
+        height: 1800px;
+    }
+    .Coursecontainer h3{
+        font-size: 60px;
+    }
+    
+    .planCard{
+        display: flex;
+    }
+    .plancard1{
+        border:4px solid black;
+        border-radius: 50px;
+        height: 1000px;
+        width: 50%;
+        padding-top: 5px;
+        margin-left: -25px;
+    }
+    .plancard1 h1{
+        font-size: 50px;
+    }
+    .plancard1 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:400px ;
+        height: 220px;
+         margin-left: 10px;
+    }
+    .plancard1 li{
+        font-size: 41px;
+        font-weight: bolder;
+        list-style:square;
+        padding-left: 10px;
+    }
+    .plancard2{
+        border:4px solid black;
+        border-radius: 50px;
+        height: 1000px;
+        width: 50%;
+        margin-left: 35px;
+    }
+    .plancard2 h1{
+        margin-top: 50px;
+        font-size: 47px;
+    }
+    .plancard2 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:400px ;
+        height: 220px;
+         margin-left: 10px;
+    }
+    .plancard2 li{
+        font-size: 42.6px;
+        font-weight: bolder;
+        list-style: square;
+        padding-left: 10px;
+    }
+    .Two-wheeler h2{
+     font-size: 50px;
+    }.Two-wheeler h3{
+        font-size: 65px;
+    }
+    .two-wheeler{
+      /*  border: 2px solid green;*/
+        width: 100%;
+        height: 1200px;
+    }
+    .plancard3{
+        border: 4px solid black;
+        border-radius: 50px;
+        width: 50%;
+        height: 1300px;
+    }
+    .Two-wheeler h2{
+        font-size: 40px;
+    }
+    .two-wheeler{
+        margin-left: -30px;
+        display: flex;
+    }
+    .plancard3 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .plancard3 h1{
+        font-size: 50px;
+    }
+    .plancard3 li{
+        font-size: 46px;
+        font-weight: bolder;
+        padding-top: 15px;
+        list-style: square;
+    }
+    .plancard4{
+        border: 4px solid black;
+        border-radius: 50px;
+        margin-left: 60px;
+        width: 550px;
+        height: 1300px;
+    }
+    .plancard4 h1{
+        font-size: 46px;
+        margin-top: 50px;
+    }
+    .plancard4 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 400px;
+        height: 250px;
+    }
+    .plancard4 li{
+        font-size: 45px;
+        font-weight: bolder;
+        padding-top: 15px;
+        list-style: square;
+    }
+    .FAQContainer h1{
+        font-size: 75px;
+    }
+    .FAQ1,.FAQ2,.FAQ3,.FAQ4,.FAQ5{
+     margin-top: 80px;
+    }
+    .FAQ1lower,.FAQ2lower,.FAQ3lower,.FAQ4lower,.FAQ5lower{
+        margin-top: 20px;
+    }
+    .FAQ1upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+        
+    }
+    .FAQ1lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ2upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ2lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ3upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ3lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ4upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ4lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ5upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ5lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .ReasontojoinContainer h2{
+     font-size: 70px;
+    }
+    .rtjcontent {
+        border: 3px solid black;
+        border-radius: 50px;
+        height: 1900px;
+    }
+    .rtjcontent li{
+        font-size: 50px;
+        font-weight: bolder;
+        padding-top: 40px;
+        list-style: square;
+        padding-left: 10px;
+    }
+    .rtjlower h2{
+        padding-left: 20px;
+        font-size: 55px;
+    }
+    .ContactContainer {
+      /*  border: 2px solid black;*/
+        border-radius: 50px;
+        margin-top: 50px;
+        width: 100%;
+        height: 800px;
+    }
+    .ContactContainer h2{
+        font-size: 70px;
+    }
+    .Contactinfo {
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+    .Contactinfo li{
+        font-size: 35px;
+        font-weight: bolder;
+        list-style: square;
+        padding-top: 20px;
+    }
+    .foot{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: -40px;
+    height: 1900px;
+    margin-left:-50px ;
+    margin-right:-30px;
+    margin-bottom: -80px;
+    padding-left: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: mintcream;
+    }
+    .foot h1{
+        font-size: 46px;
+        margin-top: 90px;
+    }
+    .upperfoot h2{
+        font-size: 48px;
+    }
+    .upperfoot p{
+        font-size: 45px;
+        font-weight: bolder;
+        margin-left: 150px;
+        margin-top: -20px;
+    }
+    .footlist li{
+     
+       text-decoration: none;
+       font-size: 45px;
+       font-weight: lighter;
+        padding-top:20px ;
+        list-style: none;
+    }
+    .footlist a{
+        color: mintcream;
+        text-decoration: none;
+        
+    }
+    .lowerfoot {
+      /*  border: 2px solid black;*/
+        margin-top: 200px;
+        padding-left: 20px;
+    }
+    .lowerfoot li{
+        display: inline-flex;
+        border-radius: 50px;
+       padding:28px ;
+       padding-top: 20px;
+    }
+    
+    .lowerfoot img{
+      
+        height: 125px;
+        width: 125px;
+        border-radius: 25px;
+    }
+    .thank img{
+        border-radius: 150px;
+        height: 300px;
+        width: 300px;
+        margin-left: 250px;
+    }
+    .thank h2 {
+        margin-left: 150px;
+    }
+    .develope h6{
+        color: mintcream;
+        font-size: 33px;
+        margin-top: -30px;
+        margin-left: -50px;
+    }
+}
+@media screen and (min-width:375px) {
+    *{
+        scroll-behavior: smooth;
+      
+        
+    }
+    
+    body {
+      font-family: 'Poppins',Arial, sans-serif;
+      margin-left: 20px;
+    }
+    
+    .uppernavbar{
+        /*border: 2px solid red;*/
+        width:100%;
+        height: 175px;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+    }
+    .upperrightnavbar{
+       /* border: 2px solid green;*/
+        width: 50%;
+        height: 100%;
+    }
+    .upperrightnavbar img{
+        width: 175px;
+        height: 175px;
+        border-radius: 78%;
+        object-fit: fill;
+    }
+    .loginbutton{
+        width: 200px;
+        height: 70px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: black;
+        color: mintcream;
+        font-size: 38px;
+        margin-left: 600px;
+        margin-top: 60px;
+    }
+    .upperleftnavbar{
+      /*  border: 2px solid blue;*/
+        width: 50%;
+        height: 100%;
+       
+    }
+    .lowernav{
+        margin-top: 30px;
+       /* border: 2px solid green;*/
+        width: 100%;
+        height: 100px;
+     margin-left: 60px;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .menu{
+        border: 2px solid black ;
+        border-radius: 50px;
+        width: 900px;
+        height: 100%;
+        justify-content: space-between;
+        background-color: black;
+    }
+    .menu li{
+       
+        display:inline-flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        text-decoration: none;
+        color: mintcream;
+        font-weight: bolder;
+      
+    }
+    .menu a{
+        color: mintcream;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 40px;
+       justify-content: space-between;
+    }
+    .BannerContainer{
+        margin-top: 50px;
+        margin-left: 60px;
+        /*border: 2px solid red;*/
+        width: 855px;
+        height: 1400px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+      }
+      .mySlides {
+        display: none;
+      }
+      .mySlides img {
+        width: 100%;
+        height: auto;
+        border: 3px solid black;
+        border-radius: 50px;
+      }
+    .BannerContent{
+    border: 2px solid green;
+    position:absolute;
+    margin-top: -500px;
+    
+    }
+    .allsection{
+        margin-left: 40px;
+    }
+    .Popularcontainer{
+        /*border: 2px solid red;*/
+        margin-top: 30px;
+        height: 1200px;
+        width: 100%;
+    }
+    .Popularcontainer h2{
+     font-size: 80px;
+    }
+    .imageContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imagebar1 {
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 1050px;
+    width: 50%;
+    margin-left: -5px;
+    }
+    .imagebar1 h1{
+     font-size: 50px;
+    }
+    .imagebar1 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:420px ;
+        height: 220px;
+    }
+    .imageContent1{
+        /*border: 2px solid blue ;*/
+        font-size: 43px;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    .imageContent1 li{
+        list-style:square ;
+    }
+    .imagebar2{
+        border: 5px solid black;
+        border-radius: 50px;
+        width: 50%;
+        height: 1050px;
+        margin-left: 25px;
+    }
+    .imagebar2 h1{
+        font-size: 48px;
+    }
+    .imagebar2 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:420px ;
+        height: 220px;
+    }
+    .imageContent2{
+        /*  border: 2px solid blue ;*/
+           font-size: 42.5px;
+           padding: 5px;
+           font-weight: bolder; 
+           padding: 9px;
+    }
+    .imageContent2 li{
+        list-style:square ;
+    }
+    .ourServiceContainer{
+        margin-top: 50px;
+        /*border: 5px solid black;*/
+        width: 100%;
+        height: 1200px;
+    }
+    .ourServiceContainer h2{
+        margin-top: 100px;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    .service{
+        border: 4px solid black;
+        border-radius: 50px;
+        display: flex;
+    }
+    .imagebarrightside{
+       /* border: 2px solid black;*/
+        border: 5px;
+        height: 900px;
+        width:50%;
+    }
+    .imagebarrightside img{
+        width: 100%;
+        height: 100%;
+        border: 4px solid black;
+        border-radius: 50px;
+    }
+    .Contentbarleft h2{
+        font-size: 60px;
+        font-weight: bolder;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .Contentbarleft li{
+        font-size: 38px;
+        font-weight: bolder;
+        padding-top: 20px;
+        list-style: none;
+    }
+    .Coursecontainer{
+     /*  border: 2px solid red;*/
+        width: 100%;
+        height: 3000px;
+    }
+    .Coursecontainer h2{
+        font-size: 90px;
+    }
+    .planCardContainer{
+       /* border: 4px solid black;*/
+        height: 1800px;
+    }
+    .Coursecontainer h3{
+        font-size: 60px;
+    }
+    
+    .planCard{
+        display: flex;
+    }
+    .plancard1{
+        border:4px solid black;
+        border-radius: 50px;
+        height: 1000px;
+        width: 50%;
+        padding-top: 5px;
+        margin-left: -25px;
+    }
+    .plancard1 h1{
+        font-size: 50px;
+    }
+    .plancard1 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:400px ;
+        height: 220px;
+         margin-left: 10px;
+    }
+    .plancard1 li{
+        font-size: 41px;
+        font-weight: bolder;
+        list-style:square;
+        padding-left: 10px;
+    }
+    .plancard2{
+        border:4px solid black;
+        border-radius: 50px;
+        height: 1000px;
+        width: 50%;
+        margin-left: 35px;
+    }
+    .plancard2 h1{
+        margin-top: 50px;
+        font-size: 47px;
+    }
+    .plancard2 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:400px ;
+        height: 220px;
+         margin-left: 10px;
+    }
+    .plancard2 li{
+        font-size: 42.6px;
+        font-weight: bolder;
+        list-style: square;
+        padding-left: 10px;
+    }
+    .Two-wheeler h2{
+     font-size: 50px;
+    }.Two-wheeler h3{
+        font-size: 65px;
+    }
+    .two-wheeler{
+      /*  border: 2px solid green;*/
+        width: 100%;
+        height: 1200px;
+    }
+    .plancard3{
+        border: 4px solid black;
+        border-radius: 50px;
+        width: 50%;
+        height: 1300px;
+    }
+    .Two-wheeler h2{
+        font-size: 40px;
+    }
+    .two-wheeler{
+        margin-left: -30px;
+        display: flex;
+    }
+    .plancard3 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .plancard3 h1{
+        font-size: 50px;
+    }
+    .plancard3 li{
+        font-size: 46px;
+        font-weight: bolder;
+        padding-top: 15px;
+        list-style: square;
+    }
+    .plancard4{
+        border: 4px solid black;
+        border-radius: 50px;
+        margin-left: 60px;
+        width: 550px;
+        height: 1300px;
+    }
+    .plancard4 h1{
+        font-size: 46px;
+        margin-top: 50px;
+    }
+    .plancard4 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 400px;
+        height: 250px;
+    }
+    .plancard4 li{
+        font-size: 45px;
+        font-weight: bolder;
+        padding-top: 15px;
+        list-style: square;
+    }
+    .FAQContainer h1{
+        font-size: 75px;
+    }
+    .FAQ1,.FAQ2,.FAQ3,.FAQ4,.FAQ5{
+     margin-top: 80px;
+    }
+    .FAQ1lower,.FAQ2lower,.FAQ3lower,.FAQ4lower,.FAQ5lower{
+        margin-top: 20px;
+    }
+    .FAQ1upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+        
+    }
+    .FAQ1lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ2upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ2lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ3upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ3lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ4upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ4lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .FAQ5upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 32px;
+    }
+    .FAQ5lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:32px ;
+    }
+    .ReasontojoinContainer h2{
+     font-size: 70px;
+    }
+    .rtjcontent {
+        border: 3px solid black;
+        border-radius: 50px;
+        height: 1900px;
+    }
+    .rtjcontent li{
+        font-size: 50px;
+        font-weight: bolder;
+        padding-top: 40px;
+        list-style: square;
+        padding-left: 10px;
+    }
+    .rtjlower h2{
+        padding-left: 20px;
+        font-size: 55px;
+    }
+    .ContactContainer {
+      /*  border: 2px solid black;*/
+        border-radius: 50px;
+        margin-top: 50px;
+        width: 100%;
+        height: 800px;
+    }
+    .ContactContainer h2{
+        font-size: 70px;
+    }
+    .Contactinfo {
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+    .Contactinfo li{
+        font-size: 36px;
+        font-weight: bolder;
+        list-style: square;
+        padding-top: 20px;
+    }
+    .foot{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 140px;
+    height: 1900px;
+    margin-left:-70px ;
+    margin-right:-100px;
+    margin-bottom: -80px;
+    padding-left: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: mintcream;
+    }
+    .foot h1{
+        font-size: 46px;
+        margin-top: 90px;
+    }
+    .upperfoot h2{
+        font-size: 48px;
+    }
+    .upperfoot p{
+        font-size: 45px;
+        font-weight: bolder;
+        margin-left: 150px;
+        margin-top: -20px;
+    }
+    .footlist li{
+     
+       text-decoration: none;
+       font-size: 45px;
+       font-weight: lighter;
+        padding-top:20px ;
+        list-style: none;
+    }
+    .footlist a{
+        color: mintcream;
+        text-decoration: none;
+        
+    }
+    .lowerfoot {
+      /*  border: 2px solid black;*/
+        margin-top: 200px;
+        padding-left: 20px;
+    }
+    .lowerfoot li{
+        display: inline-flex;
+        border-radius: 50px;
+       padding:28px ;
+       padding-top: 20px;
+    }
+    
+    .lowerfoot img{
+      
+        height: 125px;
+        width: 125px;
+        border-radius: 25px;
+    }
+    .thank img{
+        border-radius: 150px;
+        height: 300px;
+        width: 300px;
+        margin-left: 250px;
+    }
+    .thank h2 {
+        margin-left: 150px;
+    }
+    .develope h6{
+        color: mintcream;
+        font-size: 33px;
+       margin-top: -30px;
+        margin-left: -50px;
+    } 
+}
+@media screen and (min-width:425px) {
+    
+*{
+    scroll-behavior: smooth;
+  
+    
+}
+
+body {
+  font-family: 'Poppins',Arial, sans-serif;
+  margin-left: 20px;
+}
+
+.uppernavbar{
+    /*border: 2px solid red;*/
+    width:100%;
+    height: 175px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.upperrightnavbar{
+   /* border: 2px solid green;*/
+    width: 50%;
+    height: 100%;
+}
+.upperrightnavbar img{
+    width: 175px;
+    height: 175px;
+    border-radius: 78%;
+    object-fit: fill;
+}
+.loginbutton{
+    width: 200px;
+    height: 70px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: mintcream;
+    font-size: 38px;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.upperleftnavbar{
+  /*  border: 2px solid blue;*/
+    width: 50%;
+    height: 100%;
+   
+}
+.lowernav{
+    margin-top: 30px;
+   /* border: 2px solid green;*/
+    width: 100%;
+    height: 100px;
+    margin-left: 60px ;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+
+}
+.menu{
+    border: 2px solid black ;
+    border-radius: 50px;
+    width: 900px;
+    height: 100%;
+    justify-content: space-between;
+    background-color: black;
+    color: mintcream;
+}
+.menu li{
+   
+    display:inline-flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    text-decoration: none;
+    color: mintcream;
+    font-weight: bolder;
+  
+}
+.menu a{
+    color: mintcream;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 40px;
+   justify-content: space-between;
+}
+.BannerContainer{
+    margin-top: 50px;
+    margin-left: 60px;
+    /*border: 2px solid red;*/
+    width: 855px;
+    height: 1400px;
+    font-family: 'Poppins', sans-serif;
+}
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .mySlides {
+    display: none;
+  }
+  .mySlides img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 50px;
+  }
+.BannerContent{
+border: 2px solid green;
+position:absolute;
+margin-top: -500px;
+
+}
+.allsection{
+    margin-left: 50px;
+}
+.Popularcontainer{
+    /*border: 2px solid red;*/
+    margin-top: 30px;
+    height: 1200px;
+    width: 100%;
+}
+.Popularcontainer h2{
+ font-size: 80px;
+}
+.imageContent{
+    display: flex;
+    justify-content: space-between;
+}
+.imagebar1 {
+border: 5px solid black;
+border-radius: 50px;
+height: 1050px;
+width: 50%;
+margin-left: -5px;
+}
+.imagebar1 h1{
+ font-size: 50px;
+}
+.imagebar1 img{
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-top: 0px;
+    width:420px ;
+    height: 220px;
+}
+.imageContent1{
+    /*border: 2px solid blue ;*/
+    font-size: 43px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.imageContent1 li{
+    list-style:square ;
+}
+.imagebar2{
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 50%;
+    height: 1050px;
+    margin-left: 25px;
+}
+.imagebar2 h1{
+    font-size: 48px;
+}
+.imagebar2 img{
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-top: 0px;
+    width:420px ;
+    height: 220px;
+}
+.imageContent2{
+    /*  border: 2px solid blue ;*/
+       font-size: 42.5px;
+       padding: 5px;
+       font-weight: bolder; 
+       padding: 9px;
+}
+.imageContent2 li{
+    list-style:square ;
+}
+.ourServiceContainer{
+    margin-top: 50px;
+    /*border: 5px solid black;*/
+    width: 100%;
+    height: 1200px;
+}
+.ourServiceContainer h2{
+    margin-top: 100px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.service{
+    border: 4px solid black;
+    border-radius: 50px;
+    display: flex;
+}
+.imagebarrightside{
+   /* border: 2px solid black;*/
+    border: 5px;
+    height: 900px;
+    width:50%;
+}
+.imagebarrightside img{
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+.Contentbarleft h2{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.Contentbarleft li{
+    font-size: 38px;
+    font-weight: bolder;
+    padding-top: 20px;
+    list-style: none;
+}
+.Coursecontainer{
+ /*  border: 2px solid red;*/
+    width: 100%;
+    height: 3000px;
+}
+.Coursecontainer h2{
+    font-size: 90px;
+}
+.planCardContainer{
+   /* border: 4px solid black;*/
+    height: 1800px;
+}
+.Coursecontainer h3{
+    font-size: 60px;
+}
+
+.planCard{
+    display: flex;
+}
+.plancard1{
+    border:4px solid black;
+    border-radius: 50px;
+    height: 1000px;
+    width: 50%;
+    padding-top: 5px;
+    margin-left: -25px;
+}
+.plancard1 h1{
+    font-size: 50px;
+}
+.plancard1 img{
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-top: 0px;
+    width:400px ;
+    height: 220px;
+     margin-left: 10px;
+}
+.plancard1 li{
+    font-size: 41px;
+    font-weight: bolder;
+    list-style:square;
+    padding-left: 10px;
+}
+.plancard2{
+    border:4px solid black;
+    border-radius: 50px;
+    height: 1000px;
+    width: 50%;
+    margin-left: 35px;
+}
+.plancard2 h1{
+    margin-top: 50px;
+    font-size: 47px;
+}
+.plancard2 img{
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-top: 0px;
+    width:400px ;
+    height: 220px;
+     margin-left: 10px;
+}
+.plancard2 li{
+    font-size: 42.6px;
+    font-weight: bolder;
+    list-style: square;
+    padding-left: 10px;
+}
+.Two-wheeler h2{
+ font-size: 50px;
+}.Two-wheeler h3{
+    font-size: 65px;
+}
+.two-wheeler{
+  /*  border: 2px solid green;*/
+    width: 100%;
+    height: 1200px;
+}
+.plancard3{
+    border: 4px solid black;
+    border-radius: 50px;
+    width: 50%;
+    height: 1300px;
+}
+.Two-wheeler h2{
+    font-size: 40px;
+}
+.two-wheeler{
+    margin-left: -30px;
+    display: flex;
+}
+.plancard3 img{
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+}
+.plancard3 h1{
+    font-size: 50px;
+}
+.plancard3 li{
+    font-size: 46px;
+    font-weight: bolder;
+    padding-top: 15px;
+    list-style: square;
+}
+.plancard4{
+    border: 4px solid black;
+    border-radius: 50px;
+    margin-left: 60px;
+    width: 550px;
+    height: 1300px;
+}
+.plancard4 h1{
+    font-size: 46px;
+    margin-top: 50px;
+}
+.plancard4 img{
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 250px;
+}
+.plancard4 li{
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 15px;
+    list-style: square;
+}
+.FAQContainer h1{
+    font-size: 75px;
+}
+.FAQ1,.FAQ2,.FAQ3,.FAQ4,.FAQ5{
+ margin-top: 80px;
+}
+.FAQ1lower,.FAQ2lower,.FAQ3lower,.FAQ4lower,.FAQ5lower{
+    margin-top: 20px;
+}
+.FAQ1upper {
+    border: 4px solid black;
+    border-radius: 50px;
+    font-size: 32px;
+    
+}
+.FAQ1lower{
+    border: 4px solid black ;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size:32px ;
+}
+.FAQ2upper {
+    border: 4px solid black;
+    border-radius: 50px;
+    font-size: 32px;
+}
+.FAQ2lower{
+    border: 4px solid black ;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size:32px ;
+}
+.FAQ3upper {
+    border: 4px solid black;
+    border-radius: 50px;
+    font-size: 32px;
+}
+.FAQ3lower{
+    border: 4px solid black ;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size:32px ;
+}
+.FAQ4upper {
+    border: 4px solid black;
+    border-radius: 50px;
+    font-size: 32px;
+}
+.FAQ4lower{
+    border: 4px solid black ;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size:32px ;
+}
+.FAQ5upper {
+    border: 4px solid black;
+    border-radius: 50px;
+    font-size: 32px;
+}
+.FAQ5lower{
+    border: 4px solid black ;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size:32px ;
+}
+.ReasontojoinContainer h2{
+ font-size: 70px;
+}
+.rtjcontent {
+    border: 3px solid black;
+    border-radius: 50px;
+    height: 1900px;
+}
+.rtjcontent li{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 40px;
+    list-style: square;
+    padding-left: 10px;
+}
+.rtjlower h2{
+    padding-left: 20px;
+    font-size: 55px;
+}
+.ContactContainer {
+  /*  border: 2px solid black;*/
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+}
+.ContactContainer h2{
+    font-size: 70px;
+}
+.Contactinfo {
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.Contactinfo li{
+    font-size: 36px;
+    font-weight: bolder;
+    list-style: square;
+    padding-top: 20px;
+}
+.foot{
+border: 2px solid black;
+border-radius: 50px;
+margin-top: 140px;
+height: 1900px;
+margin-left:-70px ;
+margin-right:-100px;
+margin-bottom: -80px;
+padding-left: 80px;
+background-color: rgba(0, 0, 0, 0.8);
+color: mintcream;
+}
+.foot h1{
+    font-size: 46px;
+    margin-top: 90px;
+}
+.upperfoot h2{
+    font-size: 48px;
+}
+.upperfoot p{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.footlist li{
+ 
+   text-decoration: none;
+   font-size: 45px;
+   font-weight: lighter;
+    padding-top:20px ;
+    list-style: none;
+}
+.footlist a{
+    color: mintcream;
+    text-decoration: none;
+    
+}
+.lowerfoot {
+  /*  border: 2px solid black;*/
+    margin-top: 200px;
+    padding-left: 20px;
+}
+.lowerfoot li{
+    display: inline-flex;
+    border-radius: 50px;
+   padding:28px ;
+   padding-top: 20px;
+}
+
+.lowerfoot img{
+  
+    height: 125px;
+    width: 125px;
+    border-radius: 25px;
+}
+.thank img{
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    margin-left: 250px;
+}
+.thank h2 {
+    margin-left: 150px;
+}
+.develope h6{
+    color: mintcream;
+    font-size: 33px;
+    margin-top: -30px;
+    margin-left: -50px;
+}
+}
+@media screen and (min-width:768px) {
+    *{
+        scroll-behavior: smooth;
+      
+        
+    }
+    
+    body {
+      font-family: 'Poppins',Arial, sans-serif;
+      margin-left: 20px;
+    }
+    
+    .uppernavbar{
+        /*border: 2px solid red;*/
+        width:100%;
+        height: 175px;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+    }
+    .upperrightnavbar{
+       /* border: 2px solid green;*/
+        width: 50%;
+        height: 100%;
+        
+    }
+    .upperrightnavbar img{
+        width: 175px;
+        height: 175px;
+        border-radius: 78%;
+        object-fit: fill;
+    }
+    .loginbutton{
+        width: 200px;
+        height: 70px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: black;
+        color: mintcream;
+        font-size: 38px;
+        margin-left: 750px;
+        margin-top: 60px;
+    }
+    .upperleftnavbar{
+      /*  border: 2px solid blue;*/
+        width: 50%;
+        height: 100%;
+       margin-left: 20px;
+    }
+    .lowernav{
+        margin-top: 30px;
+       /* border: 2px solid green;*/
+        width: 100%;
+        height: 100px;
+        margin-left: 130px;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .menu{
+        border: 2px solid black ;
+        border-radius: 50px;
+        width: 1100px;
+        height: 100%;
+        justify-content: space-between;
+        color: mintcream;
+        background-color: black;
+    }
+    .menu li{
+       
+        display:inline-flex;
+        justify-content: space-between;
+        padding-left: 60px;
+        text-decoration: none;
+        color: mintcream;
+        font-weight: bolder;
+      
+    }
+    .menu a{
+        color: mintcream;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 40px;
+       justify-content: space-between;
+    }
+    .allsection{
+        margin-left: 80px;
+    }
+    .BannerContainer{
+        margin-top: 50px;
+        margin-left: 40px;
+        /*border: 2px solid red;*/
+        width: 1100px;
+        height: 1400px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+      }
+      .mySlides {
+        display: none;
+      }
+      .mySlides img {
+        width: 100%;
+        height: auto;
+        border: 3px solid black;
+        border-radius: 50px;
+      }
+    .BannerContent{
+    border: 2px solid green;
+    position:absolute;
+    margin-top: -500px;
+    
+    }
+    .Popularcontainer{
+        /*border: 2px solid red;*/
+        margin-top: 30px;
+        height: 1200px;
+        width: 100%;
+    }
+    .Popularcontainer h2{
+     font-size: 80px;
+    }
+    .imageContent{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imagebar1 {
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 1200px;
+    width: 50%;
+    margin-left: -30px;
+    
+    }
+    .imagebar1 h1{
+     font-size: 60px;
+     padding-left: 10px;
+    }
+    .imagebar1 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:520px ;
+        height: 250px;
+    }
+    .imageContent1{
+        /*border: 2px solid blue ;*/
+        font-size: 51.05px;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    .imageContent1 li{
+        list-style:square ;
+        padding-left: 10px;
+    }
+    .imagebar2{
+        border: 5px solid black;
+        border-radius: 50px;
+        width: 50%;
+        height: 1200px;
+        margin-left: 55px;
+    }
+    .imagebar2 h1{
+        font-size: 60px;
+    }
+    .imagebar2 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:520px ;
+        height: 250px;
+    }
+    .imageContent2{
+        /*  border: 2px solid blue ;*/
+           font-size: 51.4px;
+           padding: 5px;
+           font-weight: bolder; 
+           padding: 9px;
+    }
+    .imageContent2 li{
+        list-style:square ;
+        padding-left: 10px;
+    }
+    .ourServiceContainer{
+        margin-top: 50px;
+        /*border: 5px solid black;*/
+        width: 100%;
+        height: 1200px;
+    }
+    .ourServiceContainer h2{
+        margin-top: 300px;
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    .service{
+        border: 4px solid black;
+        border-radius: 50px;
+        display: flex;
+    }
+    .imagebarrightside{
+       /* border: 2px solid black;*/
+        border: 5px;
+        height: 1000px;
+        width:50%;
+    }
+    .imagebarrightside img{
+        width: 100%;
+        height: 100%;
+        border: 4px solid black;
+        border-radius: 50px;
+    }
+    .Contentbarleft h2{
+        font-size: 75px;
+        font-weight: bolder;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .Contentbarleft li{
+        font-size: 50px;
+        font-weight: bolder;
+        list-style: none;
+        margin-top: -30px;
+        padding: 5px;
+    }
+    .Coursecontainer{
+     /*  border: 2px solid red;*/
+        width: 100%;
+        height: 3000px;
+    }
+    .Coursecontainer h2{
+        font-size: 90px;
+    }
+    .planCardContainer{
+       /* border: 4px solid black;*/
+        height: 1800px;
+    }
+    .Coursecontainer h3{
+        font-size: 60px;
+    }
+    
+    .planCard{
+        display: flex;
+    }
+    .plancard1{
+        border:4px solid black;
+        border-radius: 50px;
+        height: 1200px;
+        width: 50%;
+        padding-top: 5px;
+        margin-left: -25px;
+    }
+    .plancard1 h1{
+        font-size: 60px;
+    }
+    .plancard1 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:530px ;
+        height: 250px;
+         margin-left: 2px;
+    }
+    .plancard1 li{
+        font-size: 54px;
+        font-weight: bolder;
+        list-style:square;
+        padding-left: 10px;
+    }
+    .plancard2{
+        border:4px solid black;
+        border-radius: 50px;
+        height: 1200px;
+        width: 50%;
+        margin-left: 30px;
+    }
+    .plancard2 h1{
+        margin-top: 50px;
+        font-size: 60px;
+    }
+    .plancard2 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-top: 0px;
+        width:530px ;
+        height: 250px;
+         margin-left: 4px;
+    }
+    .plancard2 li{
+        font-size: 56.8px;
+        font-weight: bolder;
+        list-style: square;
+        padding-left: 10px;
+    }
+    .Two-wheeler h2{
+     font-size: 50px;
+    }.Two-wheeler h3{
+        font-size: 65px;
+    }
+    .two-wheeler{
+      /*  border: 2px solid green;*/
+        width: 100%;
+        height: 1200px;
+    }
+    .plancard3{
+        border: 4px solid black;
+        border-radius: 50px;
+        width: 50%;
+        height: 1300px;
+    }
+    .Two-wheeler h2{
+        font-size: 40px;
+    }
+    .two-wheeler{
+        margin-left: -30px;
+        display: flex;
+    }
+    .plancard3 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 530px;
+        height: 250px;
+        margin-left: 4px;
+    }
+    .plancard3 h1{
+        font-size: 60px;
+    }
+    .plancard3 li{
+        font-size: 54.2px;
+        font-weight: bolder;
+        padding-top: 15px;
+        list-style: square;
+    }
+    .plancard4{
+        border: 4px solid black;
+        border-radius: 50px;
+        margin-left: 60px;
+        width: 550px;
+        height: 1300px;
+    }
+    .plancard4 h1{
+        font-size: 55.5px;
+        margin-top: 50px;
+    }
+    .plancard4 img{
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 530px;
+        height: 250px;
+    }
+    .plancard4 li{
+        font-size: 53px;
+        font-weight: bolder;
+        padding-top: 15px;
+        list-style: square;
+    }
+    .FAQContainer h1{
+        font-size: 75px;
+        margin-top: 200px;
+    }
+    .FAQ1,.FAQ2,.FAQ3,.FAQ4,.FAQ5{
+     margin-top: 80px;
+    }
+    .FAQ1lower,.FAQ2lower,.FAQ3lower,.FAQ4lower,.FAQ5lower{
+        margin-top: 20px;
+    }
+    .FAQ1upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 40px;
+        
+    }
+    .FAQ1lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:40px ;
+    }
+    .FAQ2upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+    .FAQ2lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:40px ;
+    }
+    .FAQ3upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+    .FAQ3lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:40px ;
+    }
+    .FAQ4upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+    .FAQ4lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:40px ;
+    }
+    .FAQ5upper {
+        border: 4px solid black;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+    .FAQ5lower{
+        border: 4px solid black ;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size:40px ;
+    }
+    .ReasontojoinContainer h2{
+     font-size: 70px;
+    }
+    .rtjcontent {
+        border: 3px solid black;
+        border-radius: 50px;
+        height: 1900px;
+    }
+    .rtjcontent li{
+        font-size: 59px;
+        font-weight: bolder;
+        padding-top: 40px;
+        list-style: square;
+        padding-left: 15px;
+    }
+    .rtjlower h2{
+        padding-left: 20px;
+        font-size: 55px;
+    }
+    .ContactContainer {
+      /*  border: 2px solid black;*/
+        border-radius: 50px;
+        margin-top: 50px;
+        width: 100%;
+        height: 800px;
+    }
+    .ContactContainer h2{
+        font-size: 70px;
+    }
+    .Contactinfo {
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+    .Contactinfo li{
+        font-size: 50px;
+        font-weight: bolder;
+        list-style: square;
+        padding-top: 20px;
+    }
+    .foot{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 140px;
+    height: 1900px;
+    margin-left:-70px ;
+    margin-right:-100px;
+    margin-bottom: -80px;
+    padding-left: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: mintcream;
+    }
+    .foot h1{
+        font-size: 46px;
+        margin-top: 90px;
+    }
+    .upperfoot h2{
+        font-size: 48px;
+    }
+    .upperfoot p{
+        font-size: 45px;
+        font-weight: bolder;
+        margin-left: 150px;
+        margin-top: -20px;
+    }
+    .footlist li{
+     
+       text-decoration: none;
+       font-size: 45px;
+       font-weight: lighter;
+        padding-top:20px ;
+        list-style: none;
+    }
+    .footlist a{
+        color: mintcream;
+        text-decoration: none;
+        
+    }
+    .lowerfoot {
+      /*  border: 2px solid black;*/
+        margin-top: 200px;
+        padding-left: 100px;
+    }
+    .lowerfoot li{
+        display: inline-flex;
+        border-radius: 50px;
+       padding:28px ;
+       padding-top: 20px;
+    }
+    
+    .lowerfoot img{
+      
+        height: 125px;
+        width: 125px;
+        border-radius: 25px;
+    }
+    .thank img{
+        border-radius: 150px;
+        height: 300px;
+        width: 300px;
+        margin-left: 250px;
+    }
+    .thank h2 {
+        margin-left: 150px;
+    }
+    .develope h6{
+        color: mintcream;
+        font-size: 33px;
+       
+        margin-left: -50px;
+    }
+}
+
